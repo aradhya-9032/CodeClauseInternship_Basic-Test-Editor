@@ -1,0 +1,99 @@
+
+h1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #957dad;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  section{
+    padding: 5%;
+    padding-top: 0;
+    height: 100vh;
+  
+  }
+  
+  .side{
+    margin-left: 0;
+  }
+  button{
+    margin: 10px;
+    border-color:  #957dad ;
+    color: #888888 ;
+    margin-bottom: 25px;
+  }
+  button:hover{
+    background-color: #efc0ce ;
+    color: white;
+  }
+  textarea{
+    padding: 3%;
+    border: none;
+    border-radius: 10px;
+  }
+  .flex-box{
+    display:flex;
+    justify-content:center;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 190, 0, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(180, 0, 0, 0.6);
+  }
+
+/* Theme Toggle Icon Styling */
+.theme-toggle {
+    position: fixed;
+}
+
+.theme-toggle button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.theme-toggle button:hover {
+    color: #0056b3;
+}
+
+/* Dark Theme Icon Styling */
+.dark-theme button {
+    color: #fff;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .flex-box {
+        flex-direction: column;
+    }
+    .theme-toggle {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dark Theme */
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+
+
+
